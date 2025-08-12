@@ -1,0 +1,56 @@
+# Root
+.DS_Store
+Thumbs.db
+*.log
+*.env
+.env
+.env.local
+.env.*.local
+node_modules/
+.dist/
+.vscode/
+.idea/
+*.sqlite3
+*.db
+*.pyc
+__pycache__/
+.cache/
+coverage/
+pytest_cache/
+.mypy_cache/
+
+# Python venvs
+.venv/
+venv/
+
+# Build outputs
+build/
+dist/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Backend
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.playwright/
+
+# Docker
+**/.docker-cache/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+
+# Alembic
+backend/alembic.ini
+backend/migrations/versions/__pycache__/
+
+# Misc
+*.swp
+*.swo
