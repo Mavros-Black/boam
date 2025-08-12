@@ -48,7 +48,6 @@ playwright-report/
 playwright/.cache/
 
 # Alembic
-backend/alembic.ini
 backend/migrations/versions/__pycache__/
 
 # Misc
