@@ -4,6 +4,7 @@ from sqlalchemy import select, and_
 from sqlalchemy.orm import Session
 from app.models import Job, JobStatus
 from app.scrapers.base import JobDraft
+from app.repositories.jobs_filters import list_jobs_filtered  # re-export for API
 
 
 def create_job(session: Session, job: Job) -> Job:
